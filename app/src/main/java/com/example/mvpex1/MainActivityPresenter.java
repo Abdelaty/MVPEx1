@@ -18,13 +18,11 @@ class MainActivityPresenter {
     void updateEmail(String email) {
         user.setEmail(email);
         view.updateUserInfoTextView(user.toString());
-
     }
 
     void updatePhone(String phone) {
         user.setPhone(phone);
         view.updateUserInfoTextView(user.toString());
-
     }
 
     public interface View {
@@ -37,3 +35,4 @@ class MainActivityPresenter {
 
     }
 }
+//http://www.zoftino.com/model-view-viewmodel-mvvm-android-example
